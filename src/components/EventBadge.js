@@ -1,41 +1,38 @@
-import React, { Component } from 'react'
+import React from 'react'
 import { MDBBadge, MDBIcon } from 'mdbreact'
 
-class Event extends Component {
-	render() {
+const event = (props) => {
 		return (
 			<>
 				<div className="media mt-1">
 					<h3 className="h3-responsive font-weight-bold mr-3">
-						{this.props.time}
+						{props.time}
 					</h3>
 					<div className="media-body mb-3 mb-lg-3">
 						<MDBBadge
 							color="danger"
 							className="ml-6 float-right"
-							onClick={() => this.props.onDelete(this.props.id)}>
+							onClick={() => props.onDelete(props.id)}>
 							-
-			  </MDBBadge>
-						<h6 className="mt-0 font-weight-bold">{this.props.title}</h6>{""}
+			  			</MDBBadge>
+						<h6 className="mt-0 font-weight-bold">{props.title}</h6>{""}
 						<hr className="hr-bold-my-2" />
-						{this.props.location && (
+						{props.location && (
 							<>
 								<p className="font-smaller mb-0">
-									<MDBIcon icon="location-arrow" /> {this.props.location}
+									<MDBIcon icon="location-arrow" /> {props.location}
 								</p>
 							</>
 						)}
 					</div>
 				</div>
-				{this.props.description && (
+				{props.description && (
 					<p className="p-2 mb-4 blue-grey lighten-5 blue-grey lighten-5">
-						{this.props.description}
+						{props.description}
 					</p>
 				)}
-
 			</>
 		)
 	}
-}
-
-export default Event
+	
+export default event

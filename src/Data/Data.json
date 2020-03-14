@@ -1,0 +1,27 @@
+[
+	{
+	  "id": 1,
+	  "time": "10:00",
+	  "title": "BreakFast with Simon",
+	  "location": "Lounge Cafe",
+	  "description": "Discus Q3 targets"
+	},
+	{
+	  "id": 2,
+	  "time": "10:30",
+	  "title": "Dayli Standup Meeting (recurring)",
+	  "location": "Warsaw Spire Office"
+	},
+	{
+	  "id": 3,
+	  "time": "11:00",
+	  "title": "Call with HRs"
+	},
+	{
+	  "id":4,
+	  "time": "12:00",
+	  "title": "Lunch with Timmoty",
+	  "location": "Canteen",
+	  "description": "Project evaluation ile declaring a variable and using an if statement is a fine way to conditionaly render a component, sometimes you might want us a"
+	}
+  ]
