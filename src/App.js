@@ -3,7 +3,7 @@ import { MDBContainer, MDBRow, MDBCol } from 'mdbreact';
 import Data from './Data/Data.json';
 import Event from './components/EventBadge';
 import Modal from './components/Modal';
-import Button from './components/Button'
+import AddButton from './components/AddButton'
 import Thermometer from './components/Thermometer'
 import RightSection from './components/RightSection.js';
 
@@ -74,18 +74,15 @@ class App extends Component {
                   />
                 ))}
               </div>
-
-              <Button
+              <AddButton
                 toggleModal={this.toggleModal}
               />
             </MDBCol>
 
             <MDBCol md="3">
-            
-              <RightSection>
-              {this.state.events.length}
-              </RightSection>
-              
+            <RightSection 
+            events={this.state.events.length}
+            />
               <Thermometer />
             </MDBCol>
           </MDBRow>

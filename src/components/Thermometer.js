@@ -7,13 +7,13 @@ const thermometer = () => {
 			<h1 className="my-3">
                 <MDBRow>
                   <MDBCol xs="3" className="text-center">
-                    <MDBIcon icon="sun" fixed />
+                    <MDBIcon icon="sun yellow" fixed />
                   </MDBCol>
-                  <MDBCol xs="9">Sunny</MDBCol>
+                  <MDBCol xs="9">Soleado</MDBCol>
                 </MDBRow>
                 <MDBRow>
                   <MDBCol xs="3" className="text-center">
-                    <MDBIcon icon="thermometer-three-quarters" fixed />
+                    <MDBIcon icon="thermometer-three-quarters " fixed />
                   </MDBCol>
                   <MDBCol xs="9"> 23°</MDBCol>
                 </MDBRow>

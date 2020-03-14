@@ -27,7 +27,7 @@ const event = (props) => {
 					</div>
 				</div>
 				{props.description && (
-					<p className="p-2 mb-4 blue-grey lighten-5 blue-grey lighten-5">
+					<p className="p-2 mb-4 green lighten-5 ">
 						{props.description}
 					</p>
 				)}
