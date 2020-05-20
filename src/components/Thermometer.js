@@ -9,7 +9,7 @@ const thermometer = () => {
                   <MDBCol xs="3" className="text-center">
                     <MDBIcon icon="sun yellow" fixed />
                   </MDBCol>
-                  <MDBCol xs="9">Soleado</MDBCol>
+                  <MDBCol xs="9">Sunny Day</MDBCol>
                 </MDBRow>
                 <MDBRow>
                   <MDBCol xs="3" className="text-center">

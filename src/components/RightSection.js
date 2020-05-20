@@ -12,7 +12,7 @@ const rightSection = (props) => {
           It is going to be busy that today. You have: <br />
         </b>
         <b style={{color: "black", fontWeight: "bold", fontSize: "x-large"}}>
-          {props.events} Tareas Hoy
+          {props.events} TASKS
         </b>
       </h6>
     </div>

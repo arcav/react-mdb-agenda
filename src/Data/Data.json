@@ -2,26 +2,25 @@
 	{
 	  "id": 1,
 	  "time": "10:00",
-	  "title": "BreakFast with Simon",
+	  "title": " Chat with Ronald for Apps Planifications",
 	  "location": "Lounge Cafe",
-	  "description": "Discus Q3 targets"
+	  "description": "Discus App targets"
 	},
 	{
 	  "id": 2,
-	  "time": "10:30",
-	  "title": "Dayli Standup Meeting (recurring)",
-	  "location": "Warsaw Spire Office"
+	  "time": "12:30",
+	  "title": "Lunch",
+	  "location": "Indigo Cafe"
 	},
 	{
 	  "id": 3,
-	  "time": "11:00",
-	  "title": "Call with HRs"
+	  "time": "1:30",
+	  "title": "Office Works "
 	},
 	{
 	  "id":4,
-	  "time": "12:00",
-	  "title": "Lunch with Timmoty",
-	  "location": "Canteen",
-	  "description": "Project evaluation"
+	  "time": "5:00",
+	  "title": "Go to Meetup",
+	  "location": "Evergreen Av. "
 	}
   ]
