@@ -1,6 +1,8 @@
 import React from 'react';
 
 
+
+
 const rightSection = (props) => {
   return (
     <div>
@@ -9,10 +11,9 @@ const rightSection = (props) => {
         <b style={{ color: "black", fontSize: "large" }}>
           It is going to be busy that today. You have: <br />
         </b>
-        <b style={{ textAlign:"right",color: "red", fontWeight: "bold", fontSize: "x-large"}}>
-          {props.events} Tareas <br />
+        <b style={{color: "black", fontWeight: "bold", fontSize: "x-large"}}>
+          {props.events} Tareas Hoy
         </b>
-        <b style={{ color: "black", fontWeight: "bold", fontSize: "x-large" }}> HOY </b>
       </h6>
     </div>
   )
