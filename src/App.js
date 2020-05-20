@@ -1,6 +1,12 @@
 import React, { Component } from 'react';
+
+//MDBREACT IMPORTS
 import { MDBContainer, MDBRow, MDBCol } from 'mdbreact';
+
+//DUMMY DATA IN JSON
 import Data from './Data/Data.json';
+
+//COMPONENTS
 import Event from './components/EventBadge';
 import Modal from './components/Modal';
 import AddButton from './components/AddButton'
@@ -17,6 +23,7 @@ class App extends Component {
     };
   }
 
+  //ADD METHOD HANDLER
   addEvent = () => {
     let newArray = [...this.state.events];
     newArray.push({
@@ -36,6 +43,7 @@ class App extends Component {
     });
   };
 
+  //INPUT HANDLER
   handleInputChange = inputName => value => {
     const nextValue = value;
     this.setState({
@@ -43,10 +51,14 @@ class App extends Component {
     })
   }
 
+  //DELETE METHOD HANDLER
+
   handleDelete = eventId => {
     const events = this.state.events.filter(e => e.id !== eventId);
     this.setState({ events });
   };
+
+  //MODAL
   toggleModal = () => {
     this.setState({
       modal: !this.state.modal
@@ -60,7 +72,7 @@ class App extends Component {
         <MDBContainer>
           <MDBRow>
             <MDBCol md="9" className="mb-r">
-              <h2 className="text-upercase my-3"> Today:</h2>
+              <h2 className="text-upercase my-3"> Hoy:</h2>
               <div id="events">
                 {this.state.events.map(event => (
                   <Event
