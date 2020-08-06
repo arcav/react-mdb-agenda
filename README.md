@@ -1,9 +1,10 @@
-Ejemplo practico del uso de MDBBOOTSTRAP para REACT , Usando Clases , este es un ejemplo dado en su pagina oficial https://mdbootstrap.com/ , siendo refactorizado 
-dividiendo el codigo en multiples componentes , partiendo de la filosofia de REACT , que podemos ver en su documentacion oficial https://es.reactjs.org/docs/thinking-in-react.html.
+## AGENDA 
 
-Nota: Entendiendo porque React implemento los Hooks queda claro su uso , sin embargo el uso de clases puede ayudar en el crecimiento como desarrollador y asi implementarlas en otros lenguajes y tecnologias donde pueden tener mayor eficacia, alcance  para ser mejor utilizadas.
+  Ejemplo practico del uso de MDBBOOTSTRAP para REACT , Usando Clases , este es un ejemplo dado en su pagina oficial https://mdbootstrap.com/ , siendo refactorizado dividiendo el codigo en multiples componentes , partiendo de la filosofia de REACT , que podemos ver en su documentacion oficial https://es.reactjs.org/docs/thinking-in-react.html.
 
-##lIVE DEMO 
+  Nota: Entendiendo porque React implemento los Hooks queda claro su uso , sin embargo el uso de clases puede ayudar en el crecimiento como desarrollador y asi implementarlas en otros lenguajes y tecnologias donde pueden tener mayor eficacia, alcance  para ser mejor utilizadas.
+
+## LIVE DEMO 
 https://reactagenda.netlify.app/
 
 
